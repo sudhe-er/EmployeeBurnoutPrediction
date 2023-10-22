@@ -94,7 +94,7 @@ if submit:
         st.image("burn.jpg", caption="Battery Low!!", width=950)
     else:
         # st.markdown(f'<h5 style="color: #00FFB0; background-color:#CCFFCC; text-align:center; padding:10px;">Your Employee is currently on the safe side with less signs of burnout, i.e., {output:.2f}</h5><br/>', unsafe_allow_html=True)
-        st.success(":green[Your Employee is currently on the safe side with less signs of burnout, i.e., {:.2f}]".format(output))
+        st.success("Your Employee is currently on the safe side with less signs of burnout, i.e., {:.2f}".format(output))
         st.image("Emp.jpg", caption="Happies")
         st.balloons()
 
